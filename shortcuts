@@ -1,0 +1,11 @@
+save = command s
+copy = command c
+paste = command v
+cut = command x
+screenshot full screen = shift command 3
+partial screen short = shift command 4
+comment out/in (not read code) = command /
+go up a bar of code = up/down arrow
+undo = command z
+redo = shift command z
+
