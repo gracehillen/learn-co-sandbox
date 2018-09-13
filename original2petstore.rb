@@ -11,6 +11,7 @@ response = gets.chomp.downcase
 
 if response == "betta fish"
  puts "male of female?"
+ 
     
 choice3 = {"male" => 10, "female" => 5 }
 
@@ -114,14 +115,4 @@ else
   cart = fc1 + fc2
 end
 
-puts "total price = $#{cart}"
-
-puts "Use discount code 'petlove' for 15% off your purchase"
-response = gets.chomp.downcase
-
-if response == "petlove"
-  then final = cart * 0.85
-  puts "total price with discount = $#{final}"
-else
-  puts "That discount code is not valid! Your total is $#{cart}."
-end
+puts "total price = #{cart}"
